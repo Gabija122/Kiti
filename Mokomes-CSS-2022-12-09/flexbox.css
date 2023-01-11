@@ -1,0 +1,29 @@
+.child {
+    height: 100px;
+    width: 100px;
+}
+
+.blue {background-color:blue;}
+.green {background-color:green;}
+.red {background-color:red;}
+.container {
+    background-color:lightgray;
+    height: 400px;
+
+    display: flex;
+
+    /* Default property 
+    justify-content: flex-start;*/
+
+    /* justify-content kontroliuoja horizontaliai */
+    justify-content: space-around;
+
+    /* align-items kontroliuoja vertikaliai; reguliuoja VAIKINIŲ elem. poziciją pagalbinėje ašyje */  
+    align-items: center;
+
+    /* nukelia į kitą eilutę jei netelpa*/
+    flex-wrap: wrap; 
+
+    /* flex-direction nusako pagrindinės ašies kryptį */
+    flex-direction: column;
+}
